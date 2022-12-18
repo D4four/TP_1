@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Create</class>
+ <widget class="QDialog" name="Create">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>247</width>
+    <height>157</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QComboBox" name="choose">
+     <item>
+      <property name="text">
+       <string>Книги</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Учебники</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Канцелярия</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="create">
+     <property name="text">
+      <string>Создать</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="back">
+     <property name="text">
+      <string>Назад</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
